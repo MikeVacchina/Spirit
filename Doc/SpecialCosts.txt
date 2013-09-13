@@ -1,0 +1,49 @@
+special cost
+	quantity - Numeric
+	zone - String
+		area the pay will come from
+		life - paying some life amount
+		graveyard - removed some cards from graveyard
+		battlefield - sacrificed or exiles some permanent type
+	destination - String (zone)
+		area card(s) end up
+		sacrificing a creature puts it in graveyard
+		exile puts it in exile ect.
+	color (referred)
+		color(s) requirement of card
+	type - string
+		cards type
+	subtype (referred)
+		cards subtype(s)
+	triggers (referred)
+		
+if source is battlefield and type is null it is assumed to be any permanent
+
+triggers
+	sacrific creature
+	sacrific land
+	sacrific artifact
+	sacrific (permanent)
+	discard
+	creature battlefield -> graveyard
+		
+zones
+	battlefield
+	hand
+	graveyard
+	exile
+	library (shuffled)
+	library (top)
+	library (btm)
+	life (yours)
+	life (opponent) ¿prob not needed?
+	stack ¿prob not needed?
+	
+types
+	instant
+	sorcery
+	artifact
+	creature
+	enchantment
+	land
+	planeswalker
