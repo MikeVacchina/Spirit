@@ -1,0 +1,12 @@
+passive abilities
+    alter game state
+    alter a creature
+
+triggered abilities
+
+activated abilities
+
+cost abilities
+    as an additional cost do ...
+    phyrexian mana
+    hybrid mana

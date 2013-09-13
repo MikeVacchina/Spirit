@@ -1,0 +1,58 @@
+card metadata
+    txt file for each card with same name diff extention
+    describes 
+        mana cost (colors determined from this)
+        card type
+        card subtype
+        power/toughness
+        special rules
+        triggered abilities
+        activated abilities
+        static abilities
+
+right click menus
+    card menu
+        bury
+        exile
+        tap
+        untap
+        return to library
+            top
+            bottom
+            shuffled
+        return to hand
+    library menu
+        shuffle
+        bury top x
+        exile top x
+        reveal top x
+        search
+        draw top x
+    graveyard menu
+        view
+            return to hand
+            return to library
+                top
+                bottom
+                shuffle
+            return to battlefield
+            exile
+    hand menu
+        play
+        discard
+        discard (random)
+        exile
+        exile (random)
+        reveal
+        reveal (random)
+        return to library
+            top
+            bottom
+            shuffled
+    other menu (battlefield)
+        untap all
+        toss coin
+        concede
+    life
+        gain x
+        lose x
