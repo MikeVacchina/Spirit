@@ -1,12 +1,22 @@
 passive abilities
     alter game state
     alter a creature
+	always active
 
 triggered abilities
+	some must happen before ability is used
 
 activated abilities
+	user must "pay" before ability is used
 
 cost abilities
     as an additional cost do ...
     phyrexian mana
     hybrid mana
+	
+	
+Ability
+	type (passive, triggered, activated)
+	cost (mana, special, tapping)
+	trigger 
+	

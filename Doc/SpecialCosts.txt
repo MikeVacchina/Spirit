@@ -15,7 +15,8 @@ special cost
 		cards type
 	subtype (referred)
 		cards subtype(s)
-	triggers (referred)
+	optional - y/n
+	effect??
 		
 if source is battlefield and type is null it is assumed to be any permanent
 
@@ -37,6 +38,7 @@ zones
 	library (btm)
 	life (yours)
 	life (opponent) ¿prob not needed?
+	mana pool
 	stack ¿prob not needed?
 	
 types
